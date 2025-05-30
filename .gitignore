@@ -1,65 +1,6 @@
-# Исключаем виртуальное окружение
 venv/
-
-# Python кэш и временные файлы
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-# Секреты, базы данных, переменные окружения
+*.pyc
 .env
-*.sqlite3
-
-# macOS / Linux системные файлы
 .DS_Store
-Thumbs.db
-
-# Журналы и дампы
-*.log
-*.bak
-*.tmp
-*.swp
-*.dump
-*.pid
-
-# Архивы
-*.zip
-*.tar
-*.tar.gz
-*.rar
-*.7z
-
-# Медиа и тяжёлые файлы
-*.mp4
-*.mp3
-*.mov
-*.avi
-*.mkv
-*.wav
-*.flac
-*.iso
-
-# Изображения (если временные или не нужны в гите)
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.webp
-*.tiff
-*.psd
-
-# Jupyter и другие промежуточные файлы
-*.ipynb
-*.checkpoint
-*.h5
-*.pth
-*.onnx
-*.pb
-
-# Node / JS окружение (если есть)
-node_modules/
-npm-debug.log
-
-# Тяжёлые .git-объекты, если вручную добавлены
-.git/
+.db.sqlite3

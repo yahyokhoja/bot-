@@ -1,4 +1,8 @@
 import os
+from dotenv import load_dotenv  # <== ЭТО НУЖНО!
+
+load_dotenv()
+
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:

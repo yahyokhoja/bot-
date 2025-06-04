@@ -1,0 +1,245 @@
+2025-06-04 15:45:06,738 - aiogram.dispatcher - INFO - Start polling
+2025-06-04 15:45:10,105 - aiogram.dispatcher - INFO - Run polling for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 15:47:08,308 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-04 15:47:08,309 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7942716153)
+2025-06-04 15:47:20,060 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7942716153)
+2025-06-04 15:48:48,585 - aiogram.event - INFO - Update id=555042367 is handled. Duration 574 ms by bot id=7942716153
+2025-06-04 15:48:52,872 - aiogram.event - INFO - Update id=555042368 is handled. Duration 226 ms by bot id=7942716153
+2025-06-04 15:49:08,375 - aiogram.event - INFO - Update id=555042369 is handled. Duration 186 ms by bot id=7942716153
+2025-06-04 15:49:16,910 - aiogram.event - INFO - Update id=555042370 is handled. Duration 251 ms by bot id=7942716153
+2025-06-04 15:49:20,669 - aiogram.event - INFO - Update id=555042371 is handled. Duration 316 ms by bot id=7942716153
+2025-06-04 15:49:23,975 - aiogram.event - INFO - Update id=555042372 is handled. Duration 238 ms by bot id=7942716153
+2025-06-04 15:49:26,384 - aiogram.event - INFO - Update id=555042373 is handled. Duration 366 ms by bot id=7942716153
+2025-06-04 15:49:28,303 - aiogram.event - INFO - Update id=555042374 is handled. Duration 505 ms by bot id=7942716153
+2025-06-04 16:00:06,811 - aiogram.event - INFO - Update id=555042375 is handled. Duration 1759 ms by bot id=7942716153
+2025-06-04 16:00:09,382 - aiogram.event - INFO - Update id=555042376 is handled. Duration 279 ms by bot id=7942716153
+2025-06-04 16:00:14,673 - aiogram.event - INFO - Update id=555042377 is handled. Duration 369 ms by bot id=7942716153
+2025-06-04 16:00:24,224 - aiogram.event - INFO - Update id=555042378 is handled. Duration 332 ms by bot id=7942716153
+2025-06-04 16:00:28,844 - aiogram.event - INFO - Update id=555042379 is handled. Duration 289 ms by bot id=7942716153
+2025-06-04 16:00:32,174 - aiogram.event - INFO - Update id=555042380 is handled. Duration 428 ms by bot id=7942716153
+2025-06-04 16:00:36,141 - aiogram.event - INFO - Update id=555042381 is handled. Duration 387 ms by bot id=7942716153
+2025-06-04 16:00:38,483 - aiogram.event - INFO - Update id=555042382 is handled. Duration 620 ms by bot id=7942716153
+2025-06-04 16:00:40,867 - aiogram.event - INFO - Update id=555042383 is handled. Duration 581 ms by bot id=7942716153
+2025-06-04 16:00:52,551 - aiogram.event - INFO - Update id=555042384 is handled. Duration 649 ms by bot id=7942716153
+2025-06-04 16:00:58,371 - aiogram.event - INFO - Update id=555042385 is handled. Duration 588 ms by bot id=7942716153
+2025-06-04 16:05:00,737 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-04 16:05:00,738 - aiogram.dispatcher - INFO - Polling stopped for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 16:05:00,738 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-04 16:05:12,782 - aiogram.dispatcher - INFO - Start polling
+2025-06-04 16:05:32,809 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-04 16:10:50,581 - aiogram.dispatcher - INFO - Start polling
+2025-06-04 16:10:53,492 - aiogram.dispatcher - INFO - Run polling for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 16:10:54,846 - aiogram.event - INFO - Update id=555042386 is handled. Duration 1077 ms by bot id=7942716153
+2025-06-04 16:11:03,232 - aiogram.event - INFO - Update id=555042387 is handled. Duration 321 ms by bot id=7942716153
+2025-06-04 16:14:26,437 - aiogram.event - INFO - Update id=555042388 is handled. Duration 427 ms by bot id=7942716153
+2025-06-04 16:15:00,564 - aiogram.event - INFO - Update id=555042389 is handled. Duration 369 ms by bot id=7942716153
+2025-06-04 16:15:23,277 - aiogram.event - INFO - Update id=555042390 is handled. Duration 889 ms by bot id=7942716153
+2025-06-04 16:15:27,439 - aiogram.event - INFO - Update id=555042391 is handled. Duration 309 ms by bot id=7942716153
+2025-06-04 16:15:30,236 - aiogram.event - INFO - Update id=555042392 is handled. Duration 394 ms by bot id=7942716153
+2025-06-04 16:15:34,198 - aiogram.event - INFO - Update id=555042393 is handled. Duration 320 ms by bot id=7942716153
+2025-06-04 16:15:36,578 - aiogram.event - INFO - Update id=555042394 is handled. Duration 610 ms by bot id=7942716153
+2025-06-04 16:15:38,884 - aiogram.event - INFO - Update id=555042395 is handled. Duration 589 ms by bot id=7942716153
+2025-06-04 16:34:14,641 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-04 16:34:14,642 - aiogram.dispatcher - INFO - Polling stopped for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 16:34:14,643 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-04 17:19:55,553 - aiogram.dispatcher - INFO - Start polling
+2025-06-04 17:19:59,084 - aiogram.dispatcher - INFO - Run polling for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 17:23:00,310 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-04 17:23:00,311 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7942716153)
+2025-06-04 17:23:11,842 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7942716153)
+2025-06-04 17:23:56,967 - aiogram.event - INFO - Update id=555042396 is handled. Duration 753 ms by bot id=7942716153
+2025-06-04 17:24:01,928 - aiogram.event - INFO - Update id=555042397 is handled. Duration 329 ms by bot id=7942716153
+2025-06-04 17:24:14,669 - aiogram.event - INFO - Update id=555042398 is handled. Duration 309 ms by bot id=7942716153
+2025-06-04 17:24:16,877 - aiogram.event - INFO - Update id=555042399 is handled. Duration 352 ms by bot id=7942716153
+2025-06-04 17:24:19,411 - aiogram.event - INFO - Update id=555042400 is handled. Duration 259 ms by bot id=7942716153
+2025-06-04 17:24:21,939 - aiogram.event - INFO - Update id=555042401 is handled. Duration 243 ms by bot id=7942716153
+2025-06-04 17:24:24,259 - aiogram.event - INFO - Update id=555042402 is handled. Duration 330 ms by bot id=7942716153
+2025-06-04 17:24:29,064 - aiogram.event - INFO - Update id=555042403 is handled. Duration 356 ms by bot id=7942716153
+2025-06-04 17:24:31,488 - aiogram.event - INFO - Update id=555042404 is handled. Duration 448 ms by bot id=7942716153
+2025-06-04 17:29:39,410 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-04 17:29:39,411 - aiogram.dispatcher - INFO - Polling stopped for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 17:29:39,411 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-04 17:29:49,311 - aiogram.dispatcher - INFO - Start polling
+2025-06-04 17:29:52,501 - aiogram.dispatcher - INFO - Run polling for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 17:30:36,066 - aiogram.event - INFO - Update id=555042405 is handled. Duration 1445 ms by bot id=7942716153
+2025-06-04 17:30:40,250 - aiogram.event - INFO - Update id=555042406 is handled. Duration 388 ms by bot id=7942716153
+2025-06-04 17:30:48,362 - aiogram.event - INFO - Update id=555042407 is handled. Duration 331 ms by bot id=7942716153
+2025-06-04 17:30:56,328 - aiogram.event - INFO - Update id=555042408 is handled. Duration 368 ms by bot id=7942716153
+2025-06-04 17:30:59,469 - aiogram.event - INFO - Update id=555042409 is handled. Duration 257 ms by bot id=7942716153
+2025-06-04 17:31:01,938 - aiogram.event - INFO - Update id=555042410 is handled. Duration 304 ms by bot id=7942716153
+2025-06-04 17:31:05,138 - aiogram.event - INFO - Update id=555042411 is handled. Duration 473 ms by bot id=7942716153
+2025-06-04 17:31:07,993 - aiogram.event - INFO - Update id=555042412 is handled. Duration 550 ms by bot id=7942716153
+2025-06-04 17:31:10,671 - aiogram.event - INFO - Update id=555042413 is handled. Duration 604 ms by bot id=7942716153
+2025-06-04 17:31:27,725 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-04 17:31:27,726 - aiogram.dispatcher - INFO - Polling stopped for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 17:31:27,726 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-04 17:32:43,994 - aiogram.dispatcher - INFO - Start polling
+2025-06-04 17:32:47,561 - aiogram.dispatcher - INFO - Run polling for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 17:32:50,481 - aiogram.event - INFO - Update id=555042414 is handled. Duration 2538 ms by bot id=7942716153
+2025-06-04 17:32:50,740 - aiogram.event - INFO - Update id=555042415 is handled. Duration 2796 ms by bot id=7942716153
+2025-06-04 17:32:54,820 - aiogram.event - INFO - Update id=555042416 is handled. Duration 426 ms by bot id=7942716153
+2025-06-04 17:33:03,748 - aiogram.event - INFO - Update id=555042417 is handled. Duration 317 ms by bot id=7942716153
+2025-06-04 17:33:06,337 - aiogram.event - INFO - Update id=555042418 is handled. Duration 276 ms by bot id=7942716153
+2025-06-04 17:33:08,869 - aiogram.event - INFO - Update id=555042419 is handled. Duration 270 ms by bot id=7942716153
+2025-06-04 17:33:14,020 - aiogram.event - INFO - Update id=555042420 is handled. Duration 352 ms by bot id=7942716153
+2025-06-04 17:33:18,397 - aiogram.event - INFO - Update id=555042421 is handled. Duration 758 ms by bot id=7942716153
+2025-06-04 17:33:21,250 - aiogram.event - INFO - Update id=555042422 is handled. Duration 566 ms by bot id=7942716153
+2025-06-04 17:40:21,941 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-04 17:40:21,942 - aiogram.dispatcher - INFO - Polling stopped for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 17:40:21,942 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-04 17:54:08,984 - aiogram.dispatcher - INFO - Start polling
+2025-06-04 17:54:12,519 - aiogram.dispatcher - INFO - Run polling for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 17:58:13,301 - aiogram.event - INFO - Update id=555042423 is not handled. Duration 60237 ms by bot id=7942716153
+2025-06-04 17:58:13,301 - aiogram.event - ERROR - Cause exception while process update id=555042423 by bot id=7942716153
+TelegramNetworkError: HTTP Client says - Request timeout error
+Traceback (most recent call last):
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiohttp/client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiohttp/connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1375, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1122, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1149, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1182, in _create_connection_transport
+    await waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiohttp/client.py", line 607, in _request
+    with timer:
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiohttp/helpers.py", line 685, in __exit__
+    raise asyncio.TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/handlers/booking.py", line 43, in booking_start
+    await message.answer("Пожалуйста, введите ваше имя:")
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/client/bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yahyo/telbot/bot-/venv/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 182, in make_request
+    raise TelegramNetworkError(method=method, message="Request timeout error")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-04 17:58:23,260 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-04 17:58:23,260 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7942716153)
+2025-06-04 17:58:24,840 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7942716153)
+2025-06-04 17:58:25,594 - aiogram.event - INFO - Update id=555042427 is handled. Duration 749 ms by bot id=7942716153
+2025-06-04 17:58:25,725 - aiogram.event - INFO - Update id=555042424 is handled. Duration 883 ms by bot id=7942716153
+2025-06-04 17:58:25,775 - aiogram.event - INFO - Update id=555042429 is handled. Duration 929 ms by bot id=7942716153
+2025-06-04 17:58:25,792 - aiogram.event - INFO - Update id=555042430 is handled. Duration 946 ms by bot id=7942716153
+2025-06-04 17:58:25,964 - aiogram.event - INFO - Update id=555042426 is handled. Duration 1121 ms by bot id=7942716153
+2025-06-04 17:58:26,019 - aiogram.event - INFO - Update id=555042425 is handled. Duration 1176 ms by bot id=7942716153
+2025-06-04 17:58:26,043 - aiogram.event - INFO - Update id=555042428 is handled. Duration 1198 ms by bot id=7942716153
+2025-06-04 17:58:35,605 - aiogram.event - INFO - Update id=555042431 is handled. Duration 202 ms by bot id=7942716153
+2025-06-04 17:58:42,585 - aiogram.event - INFO - Update id=555042432 is handled. Duration 251 ms by bot id=7942716153
+2025-06-04 17:58:45,580 - aiogram.event - INFO - Update id=555042433 is handled. Duration 219 ms by bot id=7942716153
+2025-06-04 17:58:49,072 - aiogram.event - INFO - Update id=555042434 is handled. Duration 370 ms by bot id=7942716153
+2025-06-04 17:58:52,293 - aiogram.event - INFO - Update id=555042435 is handled. Duration 286 ms by bot id=7942716153
+2025-06-04 17:58:56,552 - aiogram.event - INFO - Update id=555042436 is handled. Duration 729 ms by bot id=7942716153
+2025-06-04 17:58:58,346 - aiogram.event - INFO - Update id=555042437 is handled. Duration 622 ms by bot id=7942716153
+2025-06-04 18:01:22,061 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-04 18:01:22,062 - aiogram.dispatcher - INFO - Polling stopped for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 18:01:22,065 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-04 18:01:22,284 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-04 18:31:32,389 - aiogram.dispatcher - INFO - Start polling
+2025-06-04 18:31:35,186 - aiogram.dispatcher - INFO - Run polling for bot @yahyokhoja_my_bot id=7942716153 - 'Ассистент Бот'
+2025-06-04 18:32:07,559 - aiogram.event - INFO - Update id=555042438 is handled. Duration 1488 ms by bot id=7942716153
+2025-06-04 18:32:24,066 - aiogram.event - INFO - Update id=555042439 is handled. Duration 463 ms by bot id=7942716153
+2025-06-04 18:32:32,065 - aiogram.event - INFO - Update id=555042440 is handled. Duration 378 ms by bot id=7942716153
+2025-06-04 18:32:34,871 - aiogram.event - INFO - Update id=555042441 is handled. Duration 348 ms by bot id=7942716153
+2025-06-04 18:32:37,490 - aiogram.event - INFO - Update id=555042442 is handled. Duration 465 ms by bot id=7942716153
+2025-06-04 18:32:40,410 - aiogram.event - INFO - Update id=555042443 is handled. Duration 495 ms by bot id=7942716153
+2025-06-04 18:32:44,240 - aiogram.event - INFO - Update id=555042444 is handled. Duration 886 ms by bot id=7942716153
+2025-06-04 18:32:46,464 - aiogram.event - INFO - Update id=555042445 is handled. Duration 598 ms by bot id=7942716153
+2025-06-04 18:38:34,233 - aiogram.event - INFO - Update id=555042446 is handled. Duration 519 ms by bot id=7942716153
+2025-06-04 18:40:46,480 - aiogram.event - INFO - Update id=555042447 is handled. Duration 251 ms by bot id=7942716153
+2025-06-04 18:40:52,419 - aiogram.event - INFO - Update id=555042448 is handled. Duration 646 ms by bot id=7942716153
+2025-06-04 18:41:00,356 - aiogram.event - INFO - Update id=555042449 is handled. Duration 418 ms by bot id=7942716153
+2025-06-04 18:41:03,110 - aiogram.event - INFO - Update id=555042450 is handled. Duration 310 ms by bot id=7942716153
+2025-06-04 18:41:05,609 - aiogram.event - INFO - Update id=555042451 is handled. Duration 314 ms by bot id=7942716153
+2025-06-04 18:41:12,227 - aiogram.event - INFO - Update id=555042452 is handled. Duration 415 ms by bot id=7942716153
+2025-06-04 18:41:16,430 - aiogram.event - INFO - Update id=555042453 is handled. Duration 497 ms by bot id=7942716153
+2025-06-04 18:41:19,109 - aiogram.event - INFO - Update id=555042454 is handled. Duration 726 ms by bot id=7942716153
+2025-06-04 18:43:07,542 - aiogram.event - INFO - Update id=555042455 is handled. Duration 299 ms by bot id=7942716153
+2025-06-04 18:43:19,764 - aiogram.event - INFO - Update id=555042456 is handled. Duration 399 ms by bot id=7942716153
+2025-06-04 18:43:27,946 - aiogram.event - INFO - Update id=555042457 is handled. Duration 391 ms by bot id=7942716153
+2025-06-04 18:43:31,792 - aiogram.event - INFO - Update id=555042458 is handled. Duration 315 ms by bot id=7942716153
+2025-06-04 18:43:35,240 - aiogram.event - INFO - Update id=555042459 is handled. Duration 399 ms by bot id=7942716153
+2025-06-04 18:43:39,649 - aiogram.event - INFO - Update id=555042460 is handled. Duration 339 ms by bot id=7942716153
+2025-06-04 18:43:45,158 - aiogram.event - INFO - Update id=555042461 is handled. Duration 314 ms by bot id=7942716153
+2025-06-04 18:43:47,774 - aiogram.event - INFO - Update id=555042462 is handled. Duration 749 ms by bot id=7942716153
+2025-06-04 18:43:50,335 - aiogram.event - INFO - Update id=555042463 is handled. Duration 672 ms by bot id=7942716153

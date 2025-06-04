@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Заказы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            margin: 40px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        table {
+            width: 90%;
+            margin: 0 auto 30px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            background: #fff;
+        }
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #2980b9;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f7fb;
+        }
+        tr:hover {
+            background-color: #d0e7ff;
+        }
+        a {
+            display: block;
+            width: 100px;
+            margin: 0 auto;
+            padding: 10px 0;
+            text-align: center;
+            background-color: #2980b9;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #1f6391;
+        }
+    </style>
+</head>
+<body>
+    <h1>Заказы</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>User ID</th>
+          <th>Товар</th>
+          <th>Количество</th>
+          <th>Статус</th>
+          <th>Дата</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for order in orders %}
+        <tr>
+          <td>{{ order[0] }}</td>
+          <td>{{ order[1] }}</td>
+          <td>{{ order[2] }}</td>
+          <td>{{ order[3] }}</td>
+          <td>{{ order[4] }}</td>
+          <td>{{ order[5] }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    <a href="{{ url_for('admin_index') }}">Назад</a>
+</body>
+</html>

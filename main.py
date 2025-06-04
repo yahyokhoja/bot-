@@ -2,20 +2,43 @@ import asyncio
 from aiogram import Bot, Dispatcher, types
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.client.bot import DefaultBotProperties
-from config import BOT_TOKEN, WEBHOOK_URL, WEBHOOK_PATH, WEBAPP_HOST, WEBAPP_PORT
-from handlers import booking, start, faq, menu, broadcast
 from aiohttp import web
+
+from config import (
+    BOT_TOKEN,
+    USE_WEBHOOK,
+    WEBHOOK_URL,
+    WEBHOOK_PATH,
+    WEBAPP_HOST,
+    WEBAPP_PORT
+)
+
+from handlers import booking, start, faq, menu, broadcast
+
+import logging
+
+# Логирование
+logging.basicConfig(
+    level=logging.INFO,
+    filename='log.txt',
+    filemode='a',
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+
 
 
 async def on_startup(bot: Bot):
-    await bot.set_webhook(WEBHOOK_URL)
-    print(f"✅ Webhook установлен: {WEBHOOK_URL}")
+    if USE_WEBHOOK:
+        await bot.set_webhook(WEBHOOK_URL)
+        print(f"✅ Webhook установлен: {WEBHOOK_URL}")
 
 
 async def on_shutdown(bot: Bot):
-    await bot.delete_webhook()
+    if USE_WEBHOOK:
+        await bot.delete_webhook()
+        print("🔻 Webhook удалён")
     await bot.session.close()
-    print("🔻 Webhook удалён и сессия закрыта")
+    print("🔻 Сессия закрыта")
 
 
 async def handle_webhook(request: web.Request):
@@ -42,29 +65,33 @@ async def main():
     dp.include_router(faq.router)
     dp.include_router(broadcast.router)
 
-    app = web.Application()
-    app['bot'] = bot
-    app['dispatcher'] = dp
+    if USE_WEBHOOK:
+        # Webhook-режим (используется на деплое)
+        app = web.Application()
+        app['bot'] = bot
+        app['dispatcher'] = dp
 
-    # Регистрируем webhook путь
-    app.router.add_post(WEBHOOK_PATH, handle_webhook)
+        # Регистрируем webhook путь
+        app.router.add_post(WEBHOOK_PATH, handle_webhook)
 
-    # Запускаем веб-сервер aiohttp
-    runner = web.AppRunner(app)
-    await runner.setup()
-    site = web.TCPSite(runner, WEBAPP_HOST, WEBAPP_PORT)
-    await site.start()
+        runner = web.AppRunner(app)
+        await runner.setup()
+        site = web.TCPSite(runner, WEBAPP_HOST, WEBAPP_PORT)
+        await site.start()
 
-    # Устанавливаем webhook после запуска сервера (только после того, как публичный адрес доступен)
-    await on_startup(bot)
+        await on_startup(bot)
+        print(f"🚀 Webhook bot запущен на {WEBHOOK_URL}")
 
-    print(f"🚀 Webhook bot запущен на {WEBHOOK_URL}")
+        try:
+            while True:
+                await asyncio.sleep(3600)
+        finally:
+            await on_shutdown(bot)
 
-    try:
-        while True:
-            await asyncio.sleep(3600)
-    finally:
-        await on_shutdown(bot)
+    else:
+        # Polling-режим (локальная разработка)
+        print("🚀 Бот запущен в режиме polling (локальная разработка)")
+        await dp.start_polling(bot)
 
 
 if __name__ == "__main__":
